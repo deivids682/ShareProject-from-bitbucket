@@ -1,0 +1,80 @@
+{
+  "name": "data",
+  "version": "7.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "capacitor-copy": "vue-cli-service capacitor-copy",
+    "capacitor-init": "vue-cli-service capacitor-init",
+    "capacitor-open": "vue-cli-service capacitor-open",
+    "capacitor-update": "vue-cli-service capacitor-update"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^1.0.0-alpha.38",
+    "@capacitor/core": "^1.0.0-alpha.38",
+    "@google-cloud/storage": "^2.5.0",
+    "@types/leaflet": "^1.5.4",
+    "axios": "^0.19.2",
+    "bowser": "^2.7.0",
+    "chart.js": "^2.8.0",
+    "child-process-promise": "^2.2.1",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "fibers": "^3.1.1",
+    "firebase": "^6.6.2",
+    "firebase-admin": "^7.4.0",
+    "firebase-functions": "^2.3.1",
+    "firebaseui": "^3.6.1",
+    "html-to-pdfmake": "^1.2.0",
+    "html2pdf.js": "^0.9.1",
+    "mailgun-js": "^0.22.0",
+    "node-fetch": "^2.6.0",
+    "pdfmake": "^0.1.60",
+    "register-service-worker": "^1.6.2",
+    "sass-loader": "^7.3.1",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.5",
+    "vue-chartjs": "^3.4.2",
+    "vue-class-component": "^6.0.0",
+    "vue-color": "^2.7.0",
+    "vue-i18n": "^8.15.1",
+    "vue-property-decorator": "^7.3.0",
+    "vue-router": "^3.1.3",
+    "vue-svg-gauge": "^1.2.1",
+    "vue2-google-maps": "^0.10.7",
+    "vuetify": "^2.1.5",
+    "xlsx-populate": "^1.20.1",
+    "zipcelx": "^1.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-pwa": "^3.12.1",
+    "@vue/cli-plugin-typescript": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "sass": "^1.23.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.1",
+    "typescript": "^3.6.4",
+    "vue-cli-plugin-pwa": "^1.0.0-alpha.1",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
