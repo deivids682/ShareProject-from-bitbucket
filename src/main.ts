@@ -29,7 +29,7 @@ Vue.config.productionTip = false;
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyDHDtgPfWJypa7fpZDb2B8U-z9xBtF57dY',
+    key: 'key',
     libraries: 'places', // necessary for places input
   },
 });
